@@ -21,5 +21,8 @@ public class JavaUtilArrayUsage {
         for(int x : clone) {
             System.out.print(x + " ");
         }
+
+        System.out.println();
+        System.out.println(Arrays.toString(clone));
     }
 }
