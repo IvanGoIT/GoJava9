@@ -40,6 +40,12 @@ public class Recursion {
              count(a, i);
     }
 
+    static void countdown(int i){
+        if (i < 1) return;
+        System.out.print(i + " ");
+        countdown(i - 1);
+    }
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int a = scanner.nextInt();
@@ -50,5 +56,8 @@ public class Recursion {
         System.out.println(recursion(b, a));
 
         count(a,0);
+
+        System.out.println("countdown:");
+        countdown(a);
     }
 }
