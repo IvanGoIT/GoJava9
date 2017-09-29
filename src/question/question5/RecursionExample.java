@@ -38,10 +38,17 @@ public class RecursionExample {
 
 
     public static void main(String[] args) {
-        // drawTriangle(8);
-        // System.out.println(generateTriangle(8));
+        drawTriangle(8);
+        System.out.println(generateTriangle(8));
 
-        CircleDrawer circleDrawer = new CircleDrawer(8);
-        circleDrawer.draw();
+        new CircleDrawer(8).draw();
+        new CircleDrawer(3).draw();
+        new CircleDrawer(15).draw();
+
+//        Car superCar = new Car();   // OK
+//        superCar.openDoor();
+//
+//        Car superCar = new Car();   // НЕ ОК
+//        Car.openDoor(superCar);
     }
 }

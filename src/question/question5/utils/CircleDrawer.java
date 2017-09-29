@@ -10,7 +10,7 @@ public class CircleDrawer {
 
     private void drawLine(int x, int offset) {
         for(int i = 0; i < offset; i++)
-            System.out.print(" ");
+            System.out.print("  ");
 
         for(int i = 0; i < x * 2; i++)
             System.out.print(" +");
@@ -38,8 +38,8 @@ public class CircleDrawer {
             drawPyramidReverse(size / 2);
         }
         else {
-            drawPyramid(size / 2);
-            drawPyramidReverse((size / 2) - 1);
+            drawPyramid(size / 2 + 1);
+            drawPyramidReverse(size / 2);
         }
     }
 }
