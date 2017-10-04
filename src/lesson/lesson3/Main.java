@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Введите A:");
+        System.out.print("Введите ClassA:");
         int a = scanner.nextInt();
         System.out.print("Введите B:");
         int b = scanner.nextInt();
@@ -17,8 +17,8 @@ public class Main {
             a = b - 1;
             System.out.println("Теперь переменная А = " + a);
         } else {
-            System.out.println("Переменная B больше чем A");
-            System.out.println("Делаем переменную B меньше чем A");
+            System.out.println("Переменная B больше чем ClassA");
+            System.out.println("Делаем переменную B меньше чем ClassA");
             b = a - 1;
             System.out.println("Теперь переменная B = " + b);
         }
@@ -48,7 +48,7 @@ public class Main {
         max = a > b ? a : b;
         min = a < b ? a : b;
 
-        String str = a > b ? "Переменная А больше чем B" : "Переменная B больше чем A";
+        String str = a > b ? "Переменная А больше чем B" : "Переменная B больше чем ClassA";
         System.out.println(str);
     }
 }
