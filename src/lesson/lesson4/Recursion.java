@@ -2,7 +2,7 @@ package lesson.lesson4;
 
 public class Recursion {
 
-    static int fact(int n) {
+    public static int fact(int n) {
         if (n <= 1)
             return 1;
 
