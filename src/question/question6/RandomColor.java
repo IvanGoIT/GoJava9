@@ -11,6 +11,10 @@ public class RandomColor {
         return min + Math.random() * (max - min);
     }
 
+    public static int random(int min, int max) {
+        return (int) (min + Math.random() * (max - min));
+    }
+
     public static Color getRandom() {
         return Color.color(r.nextDouble(), r.nextDouble(), r.nextDouble());
     }

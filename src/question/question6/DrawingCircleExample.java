@@ -15,20 +15,23 @@ public class DrawingCircleExample extends Application {
         launch(args);
     }
 
-    void drawCircle(GraphicsContext gc, float radius) {
+    void drawCircle(GraphicsContext gc, int x, int y, float radius) {
         gc.setStroke(RandomColor.getRandom());
         gc.setLineWidth(RandomColor.random(1, 10));
-        gc.strokeOval(50, 50, radius * 2, radius * 2);
+        gc.strokeOval(x + radius, y + radius, radius * 2, radius * 2);
     }
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-        final Canvas canvas = new Canvas(250,250);
+        final Canvas canvas = new Canvas(1000,800);
         GraphicsContext gc = canvas.getGraphicsContext2D();
 
-        drawCircle(gc, 30);
-        drawCircle(gc, 10);
-        drawCircle(gc, 60);
+        for(int i = 0; i < 200; i++) {
+            drawCircle(gc,
+                    RandomColor.random(0, (int) canvas.getWidth()),
+                    RandomColor.random(0, (int) canvas.getHeight()),
+                    RandomColor.random(10, 100));
+        }
 
         Pane root = new Pane();
         root.getChildren().add(canvas);
