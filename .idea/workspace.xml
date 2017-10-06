@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="654d3861-1d3a-4e31-9683-f49f7015e683" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/question/question6/FXMain.java" afterPath="$PROJECT_DIR$/src/question/question6/FXMain.java" />
-    </list>
+    <list default="true" id="654d3861-1d3a-4e31-9683-f49f7015e683" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,12 +12,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="FXMain.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FXMain.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/question/question6/FXMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-270">
-              <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+            <state relative-caret-position="540">
+              <caret line="44" column="8" lean-forward="false" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="e#509#510#0" expanded="true" />
                 <element signature="e#537#538#0" expanded="true" />
               </folding>
@@ -27,14 +26,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Random.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0/src.zip!/java/util/Random.java">
+      <file leaf-file-name="GetterExample.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/question/question6/GetterExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="528" column="23" lean-forward="true" selection-start-line="528" selection-start-column="23" selection-end-line="528" selection-end-column="23" />
+            <state relative-caret-position="243">
+              <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
               <folding>
-                <element signature="e#21068#21069#0" expanded="true" />
-                <element signature="e#21142#21143#0" expanded="true" />
+                <element signature="e#161#162#0" expanded="true" />
+                <element signature="e#185#186#0" expanded="true" />
+                <element signature="e#314#315#0" expanded="true" />
+                <element signature="e#346#347#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -60,7 +61,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/lesson/lesson3/BreakExample.java" />
         <option value="$PROJECT_DIR$/src/lesson/lesson3/ContinueExample.java" />
         <option value="$PROJECT_DIR$/src/lesson/lesson3/BubbleSortExample.java" />
         <option value="$PROJECT_DIR$/src/question/question3/RepeatsInArray.java" />
@@ -111,6 +111,7 @@
         <option value="$PROJECT_DIR$/src/lesson/lesson6/fx/AdvancedFXMain.java" />
         <option value="$PROJECT_DIR$/src/question/question6/RandomColor.java" />
         <option value="$PROJECT_DIR$/src/question/question6/FXMain.java" />
+        <option value="$PROJECT_DIR$/src/question/question6/GetterExample.java" />
       </list>
     </option>
   </component>
@@ -462,13 +463,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/question/question3/ArrayUsageExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="24" lean-forward="false" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/question/question3/JavaUtilArrayUsage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
@@ -832,8 +826,8 @@
         <state relative-caret-position="100">
           <caret line="137" column="65" lean-forward="true" selection-start-line="137" selection-start-column="65" selection-end-line="137" selection-end-column="65" />
           <folding>
-            <element signature="e#5563#5564#0" expanded="true" />
-            <element signature="e#5616#5617#0" expanded="true" />
+            <element signature="e#5563#5564#0" expanded="false" />
+            <element signature="e#5616#5617#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -852,11 +846,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/question/question6/FXMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-270">
-          <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+        <state relative-caret-position="540">
+          <caret line="44" column="8" lean-forward="false" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#509#510#0" expanded="true" />
             <element signature="e#537#538#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/question/question6/GetterExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding>
+            <element signature="e#161#162#0" expanded="true" />
+            <element signature="e#185#186#0" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#346#347#0" expanded="true" />
           </folding>
         </state>
       </provider>
