@@ -45,5 +45,7 @@ public class FXMain extends Application {
         primaryStage.setHeight(HEIGHT);
         primaryStage.setWidth(WIDTH);
         primaryStage.show();
+
+        new FinalStaticConstructorExample(WIDTH);
     }
 }

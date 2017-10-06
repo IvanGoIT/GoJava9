@@ -35,6 +35,11 @@ public class ButtonExample extends Application {
             @Override
             public void handle(ActionEvent event) {
                 button.setText("Click me! " + ++clickCounter);
+                example();
+            }
+
+            private void example() {
+                System.out.println("Example");
             }
         });
 
