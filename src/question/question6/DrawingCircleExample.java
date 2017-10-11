@@ -26,7 +26,7 @@ public class DrawingCircleExample extends Application {
         final Canvas canvas = new Canvas(1000,800);
         GraphicsContext gc = canvas.getGraphicsContext2D();
 
-        for(int i = 0; i < 200; i++) {
+        for(int i = 0; i < 100; i++) {
             drawCircle(gc,
                     RandomColor.random(0, (int) canvas.getWidth()),
                     RandomColor.random(0, (int) canvas.getHeight()),
