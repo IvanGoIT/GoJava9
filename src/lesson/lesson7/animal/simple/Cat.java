@@ -6,7 +6,7 @@ public class Cat extends BaseAnimal {
     }
 
     @Override
-    public float getWeight() {
+    public float getWeight() { // кот выглядит очень пушистым, поэтому его масса визуально выглядит на +5 кг
         return super.getWeight() + 5;
     }
 }
