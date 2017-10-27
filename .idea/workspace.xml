@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="654d3861-1d3a-4e31-9683-f49f7015e683" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lesson/lesson9/QueueExample.java" afterPath="$PROJECT_DIR$/src/lesson/lesson9/QueueExample.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/question/question9/WordCounterExample.java" afterPath="$PROJECT_DIR$/src/question/question9/WordCounterExample.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,14 +14,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="WordCounterExample.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="WordCounterExample.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/question/question9/WordCounterExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="-205">
+              <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NodeExample.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/question/question9/NodeExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="2" column="24" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NodeExampleMain.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/question/question9/NodeExampleMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -63,8 +82,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/lesson/lesson7/animal/CanShow.java" />
-        <option value="$PROJECT_DIR$/src/lesson/lesson7/Main.java" />
         <option value="$PROJECT_DIR$/src/lesson/lesson7/MyLine.java" />
         <option value="$PROJECT_DIR$/src/question/question7/Main.java" />
         <option value="$PROJECT_DIR$/src/question/question7/Player.java" />
@@ -114,6 +131,8 @@
         <option value="$PROJECT_DIR$/src/lesson/lesson9/QueueExample.java" />
         <option value="$PROJECT_DIR$/files/question9/text.txt" />
         <option value="$PROJECT_DIR$/src/question/question9/WordCounterExample.java" />
+        <option value="$PROJECT_DIR$/src/question/question9/NodeExample.java" />
+        <option value="$PROJECT_DIR$/src/question/question9/NodeExampleMain.java" />
       </list>
     </option>
   </component>
@@ -158,12 +177,6 @@
             <path>
               <item name="GoJava9" type="b2602c69:ProjectViewProjectNode" />
               <item name="GoJava9" type="462c0819:PsiDirectoryNode" />
-              <item name="files" type="462c0819:PsiDirectoryNode" />
-              <item name="question9" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GoJava9" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GoJava9" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -171,6 +184,13 @@
               <item name="GoJava9" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="question" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GoJava9" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GoJava9" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="question" type="462c0819:PsiDirectoryNode" />
+              <item name="question9" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -474,26 +494,18 @@
           <properties />
           <option name="timeStamp" value="21" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/question/question9/NodeExampleMain.java</url>
+          <line>13</line>
+          <properties />
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="24" />
+      <option name="time" value="25" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/lesson/lesson8/products/cloth/TShirtProduct.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lesson/lesson8/products/food/CakeProduct.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="29" lean-forward="true" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/lesson/lesson8/products/NoSalable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -864,11 +876,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/question/question9/WordCounterExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="-205">
+          <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/question/question9/NodeExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="24" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/question/question9/NodeExampleMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>

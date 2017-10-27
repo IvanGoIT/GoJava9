@@ -13,7 +13,7 @@ public class WordCounterExample {
         return text.toLowerCase()
                 .replaceAll("\\.", "")
                 .replaceAll(",", "")
-                .replaceAll("\n", " ")
+                .replaceAll("\n", "")
                 .replaceAll("\r", "");
     }
 
