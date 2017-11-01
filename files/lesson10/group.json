@@ -1,0 +1,16 @@
+{
+  "name": "Класс А",
+  "users": [{
+    "age": 20,
+    "gender": "male",
+    "name": "Петя"
+  }, {
+    "age": 20,
+    "gender": "male",
+    "name": "Коля"
+  }, {
+    "age": 20,
+    "gender": "female",
+    "name": "Маша"
+  }]
+}
