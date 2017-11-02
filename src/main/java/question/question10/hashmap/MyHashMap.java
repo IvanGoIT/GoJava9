@@ -1,10 +1,10 @@
 package question.question10.hashmap;
 
-import java.util.HashMap;
 import java.util.HashSet;
 
 public class MyHashMap <K, V> {
 
+    // HashSet использовать нельзя, либо надо использовать ссылки друг на друга между pairs либо делать массив pairs
     private HashSet<Pair<K, V>> pairs = new HashSet<>();
 
     public void add(K key, V value) {
