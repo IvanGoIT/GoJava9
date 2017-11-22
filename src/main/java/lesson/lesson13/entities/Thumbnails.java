@@ -5,8 +5,6 @@ import com.fasterxml.jackson.annotation.JsonRootName;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Thumbnails {
-    @JsonRootName("default")
-    public ThumbnailImage _default;
     public ThumbnailImage medium;
     public ThumbnailImage high;
     public ThumbnailImage standard;
