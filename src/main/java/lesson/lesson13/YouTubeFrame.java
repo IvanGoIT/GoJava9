@@ -89,6 +89,10 @@ public class YouTubeFrame extends Application {
             content.getChildren().addAll(textTitle);
 
             int width = 0;
+            if (item.snippet.thumbnails._default != null) {
+                generateImage(content, yOffset, width, item.snippet.thumbnails._default);
+                width += item.snippet.thumbnails._default.width;
+            }
             if (item.snippet.thumbnails.medium != null) {
                 generateImage(content, yOffset, width, item.snippet.thumbnails.medium);
                 width += item.snippet.thumbnails.medium.width;
@@ -114,6 +118,7 @@ public class YouTubeFrame extends Application {
         if (thumbnails.standard != null) return thumbnails.standard.height;
         if (thumbnails.high != null) return thumbnails.high.height;
         if (thumbnails.medium != null) return thumbnails.medium.height;
+        if (thumbnails._default != null) return thumbnails._default.height;
         return 30;
     }
 
